@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="400" viewBox="0 0 600 400">
+  <rect width="600" height="400" fill="white"/>
+
+  <!-- Wardrobe Icon -->
+  <g transform="translate(250,40)">
+    <!-- Outer wardrobe -->
+    <rect x="0" y="0" width="100" height="140" rx="12" fill="#ff4f8b"/>
+    <rect x="8" y="8" width="84" height="124" rx="10" fill="#7b2b4d"/>
+
+    <!-- Hanging bar -->
+    <line x1="20" y1="25" x2="80" y2="25" stroke="#ffffff" stroke-width="4"/>
+
+    <!-- Dress -->
+    <path d="M35 30 C32 45, 30 60, 28 85 
+             C28 105, 45 120, 50 120 
+             C55 120, 72 105, 72 85
+             C70 60, 68 45, 65 30 Z"
+          fill="#ff4f8b"/>
+
+    <!-- Shirt -->
+    <path d="M45 35 L55 35 L60 50 L60 110 
+             L40 110 L40 50 Z"
+          fill="#ffffff"/>
+
+    <!-- Jacket -->
+    <path d="M62 40 L78 55 L78 115 
+             L62 115 Z"
+          fill="#f9c74f"/>
+
+    <!-- Stand -->
+    <line x1="50" y1="140" x2="50" y2="175" stroke="#3a1d2f" stroke-width="6"/>
+    <line x1="50" y1="175" x2="20" y2="200" stroke="#3a1d2f" stroke-width="6"/>
+    <line x1="50" y1="175" x2="80" y2="200" stroke="#3a1d2f" stroke-width="6"/>
+  </g>
+
+  <!-- Brand Name -->
+  <text x="300" y="270" font-family="Verdana" font-size="54" font-weight="600" text-anchor="middle" fill="#0a1a3a">
+    Wardrobe
+    <tspan fill="#ff4f8b">X</tspan>
+  </text>
+
+  <!-- Tagline -->
+  <text x="300" y="320" font-family="Arial" font-size="22" text-anchor="middle" letter-spacing="4" fill="#777">
+    RENT YOUR STYLE
+  </text>
+</svg>

@@ -1,0 +1,8 @@
+{
+  "buildCommand": "npm run build:deploy",
+  "outputDirectory": "client",
+  "rewrites": [
+    { "source": "/admin/(.*)", "destination": "/index.html" },
+    { "source": "/(.*)", "destination": "/index.html" }
+  ]
+}
